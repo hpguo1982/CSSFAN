@@ -1,4 +1,4 @@
-# SAF-DETR
+# CSSFAN
 
 Implementation of CSSFAN . 
 
@@ -9,11 +9,11 @@ CSSFAN is implemented on top of MMDetection v3.3.0. The essential source codes h
 - **Training (using NEU-DET dataset as an example):**
   
   ```bash
-  python train.py configs/saf_detr/regnet_haem_safenc_sda_100e_NEU-DET.py
+  python train.py configs/cssfan/faster-rcnn_r50_cssfan_arpn_NEU-12e.py
   ```
 
 - **Validation (using NEU-DET dataset as an example):**
   
   ```bash
-  python test.py configs/saf_detr/regnet_haem_safenc_sda_100e_NEU-DET.py
+  python test.py configs/cssfan/faster-rcnn_r50_cssfan_arpn_NEU-12e.py
   ```
